@@ -1,0 +1,14 @@
+{
+  "name": "siksinroad-parking-lot-seed",
+  "version": "0.1.0",
+  "private": true,
+  "description": "공공데이터포털 전국주차장정보표준데이터 기반 주차장 seed 변환 도구",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
