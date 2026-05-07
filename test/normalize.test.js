@@ -30,7 +30,7 @@ const baseRow = {
   전화번호: "031-000-0000",
 };
 
-test("서울 전역과 지정 경기도 시만 대상 지역으로 본다", () => {
+test("서울 전역과 지정된 경기도 시만 대상 지역으로 본다", () => {
   assert.equal(isTargetRegion({ 소재지도로명주소: "서울특별시 강남구 테헤란로 1" }), true);
   assert.equal(isTargetRegion({ 소재지도로명주소: "경기도 용인시 처인구 테스트로 1" }), true);
   assert.equal(isTargetRegion({ 소재지도로명주소: "경기도 고양시 덕양구 테스트로 1" }), false);
@@ -49,12 +49,46 @@ test("표준데이터 행을 백엔드 seed row로 변환한다", () => {
   assert.equal(row.lng, 127.1775537);
 });
 
-test("주차장관리번호 기준으로 중복을 제거한다", () => {
+test("공공데이터 OpenAPI 응답 필드도 seed row로 변환한다", () => {
+  const row = normalizeParkingLot({
+    prkplceNo: "API-1",
+    prkplceNm: "API 주차장",
+    prkplceSe: "공영",
+    prkplceType: "노외",
+    rdnmadr: "서울특별시 강남구 테헤란로 1",
+    prkcmprt: "10",
+    enforceSe: "미시행",
+    weekdayOperOpenHhmm: "09:00",
+    weekdayOperColseHhmm: "18:00",
+    satOperOperOpenHhmm: "09:00",
+    satOperCloseHhmm: "13:00",
+    holidayOperOpenHhmm: "00:00",
+    holidayCloseOpenHhmm: "00:00",
+    latitude: "37.5000000",
+    longitude: "127.0000000",
+    basicTime: "30",
+    basicCharge: "1000",
+    addUnitTime: "10",
+    addUnitCharge: "500",
+    phoneNumber: "02-000-0000",
+  });
+
+  assert.equal(row.parking_management_number, "API-1");
+  assert.equal(row.weekday_operating_hours, "09:00~18:00");
+  assert.equal(row.basic_parking_fee, 1000);
+});
+
+test("관리번호가 같아도 이름과 주소가 다르면 별도 행으로 보존한다", () => {
   const rows = normalizeParkingLots([
     baseRow,
-    { ...baseRow, 주차장명: "나중 주차장" },
+    { ...baseRow, 주차장명: "다른 주차장", 소재지지번주소: "경기도 용인시 처인구 테스트동 2" },
   ]);
 
+  assert.equal(rows.length, 2);
+});
+
+test("동일한 행이 여러 검색 경로에서 들어오면 한 번만 남긴다", () => {
+  const rows = normalizeParkingLots([baseRow, { ...baseRow }]);
+
   assert.equal(rows.length, 1);
-  assert.equal(rows[0].parking_lot_name, "나중 주차장");
 });

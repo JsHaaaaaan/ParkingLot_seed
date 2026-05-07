@@ -6,6 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "node src/index.js",
+    "collect": "node src/index.js --collect-from-portal-grid --portal-report output/portal-grid-report.json",
     "test": "node --test"
   },
   "engines": {

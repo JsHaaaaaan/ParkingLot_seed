@@ -1,0 +1,506 @@
+[
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 강남구",
+    "rowCount": 67,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 강남구",
+    "rowCount": 12,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 강동구",
+    "rowCount": 15,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 강동구",
+    "rowCount": 22,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 강북구",
+    "rowCount": 36,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 강북구",
+    "rowCount": 36,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 강서구",
+    "rowCount": 37,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 강서구",
+    "rowCount": 41,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 관악구",
+    "rowCount": 41,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 관악구",
+    "rowCount": 51,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 광진구",
+    "rowCount": 12,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 광진구",
+    "rowCount": 18,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 구로구",
+    "rowCount": 46,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 구로구",
+    "rowCount": 66,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 금천구",
+    "rowCount": 50,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 금천구",
+    "rowCount": 50,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 노원구",
+    "rowCount": 28,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 노원구",
+    "rowCount": 28,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 도봉구",
+    "rowCount": 65,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 도봉구",
+    "rowCount": 65,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 동대문구",
+    "rowCount": 22,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 동대문구",
+    "rowCount": 22,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 동작구",
+    "rowCount": 16,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 동작구",
+    "rowCount": 21,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 마포구",
+    "rowCount": 30,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 마포구",
+    "rowCount": 33,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 서대문구",
+    "rowCount": 18,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 서대문구",
+    "rowCount": 34,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 서초구",
+    "rowCount": 21,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 서초구",
+    "rowCount": 35,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 성동구",
+    "rowCount": 2,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 성동구",
+    "rowCount": 2,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 성북구",
+    "rowCount": 10,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 성북구",
+    "rowCount": 14,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 송파구",
+    "rowCount": 20,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 송파구",
+    "rowCount": 25,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 양천구",
+    "rowCount": 19,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 양천구",
+    "rowCount": 59,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 영등포구",
+    "rowCount": 39,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 영등포구",
+    "rowCount": 15,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 용산구",
+    "rowCount": 24,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 용산구",
+    "rowCount": 27,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 은평구",
+    "rowCount": 14,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 은평구",
+    "rowCount": 14,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 종로구",
+    "rowCount": 23,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 종로구",
+    "rowCount": 26,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 중구",
+    "rowCount": 61,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 중구",
+    "rowCount": 61,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "서울특별시 중랑구",
+    "rowCount": 21,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "서울특별시 중랑구",
+    "rowCount": 28,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 안산시",
+    "rowCount": 16,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 안산시",
+    "rowCount": 228,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 용인시",
+    "rowCount": 102,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 용인시",
+    "rowCount": 163,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 김포시",
+    "rowCount": 2,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 김포시",
+    "rowCount": 50,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 광명시",
+    "rowCount": 0,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 광명시",
+    "rowCount": 28,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 과천시",
+    "rowCount": 9,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 과천시",
+    "rowCount": 98,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 안성시",
+    "rowCount": 15,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 안성시",
+    "rowCount": 52,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 화성시",
+    "rowCount": 35,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 화성시",
+    "rowCount": 125,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 안양시",
+    "rowCount": 87,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 안양시",
+    "rowCount": 48,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 평택시",
+    "rowCount": 0,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 평택시",
+    "rowCount": 161,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 성남시",
+    "rowCount": 147,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 성남시",
+    "rowCount": 38,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 부천시",
+    "rowCount": 13,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 부천시",
+    "rowCount": 96,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 수원시",
+    "rowCount": 42,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 수원시",
+    "rowCount": 53,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 오산시",
+    "rowCount": 8,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 오산시",
+    "rowCount": 53,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 광주시",
+    "rowCount": 4,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 광주시",
+    "rowCount": 55,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 하남시",
+    "rowCount": 13,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 하남시",
+    "rowCount": 34,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 구리시",
+    "rowCount": 15,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 구리시",
+    "rowCount": 15,
+    "capped": false
+  },
+  {
+    "column": "RDNMADR",
+    "keyword": "경기도 군포시",
+    "rowCount": 42,
+    "capped": false
+  },
+  {
+    "column": "LNMADR",
+    "keyword": "경기도 군포시",
+    "rowCount": 76,
+    "capped": false
+  }
+]
